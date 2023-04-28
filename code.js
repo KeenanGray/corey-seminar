@@ -27,11 +27,11 @@ function draw() {
   	stroke(map(y,0,width,0,255),100,100);
 
   	strokeWeight(1);
+      noStroke();
   	colorMode(RGB);
   	fill(myImage.get(x, y));
-  	//circle(x, y, 15);
-  	rect(x,y,20);
+  	circle(x, y, 15);
+  	//rect(x,y,20);
 	}
 textSize(200);
-text("corey was here", 200, 200)
 }
